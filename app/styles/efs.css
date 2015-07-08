@@ -12,4 +12,5 @@
 
 .CodeMirror{
 	max-width: 960px !important;
+  height: 100% !important;
 }
