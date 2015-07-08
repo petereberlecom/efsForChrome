@@ -19,14 +19,13 @@
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "efsforchrome",
-    "default_popup": "popup.html"
+    "default_title": "efsforchrome"
   },
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://mingle2.respondi.com/*",
+        "https://mingle.respondi.com/*"
       ],
       "js": [
         "scripts/contentscript.js"
@@ -37,10 +36,5 @@
       "run_at": "document_end",
       "all_frames": false
     }
-  ],
-  "permissions": [
-    "tabs",
-    "http://*/*",
-    "https://*/*"
   ]
 }
