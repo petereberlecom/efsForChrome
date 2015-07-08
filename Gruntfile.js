@@ -282,7 +282,7 @@ module.exports = function (grunt) {
         options: {
           archive: function() {
             var manifest = grunt.file.readJSON('app/manifest.json');
-            return 'package/efsForChrome-' + manifest.version + '.zip';
+            return 'package/efsforchrome-' + manifest.version + '.zip';
           }
         },
         files: [{

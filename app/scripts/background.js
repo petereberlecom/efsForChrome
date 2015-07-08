@@ -1,9 +1,11 @@
 'use strict';
 
-chrome.runtime.onInstalled.addListener(function (details) {
-  console.log('previousVersion', details.previousVersion);
-});
 
-chrome.browserAction.setBadgeText({text: '\'Allo'});
+// if (site == 'https://mingle.respondi.com/www/layout_editor.php') {};
 
-console.log('\'Allo \'Allo! Event Page for Browser Action');
+// chrome.tabs.insertCSS(
+//   null,
+//   {
+//     code:"body{background:red;}"
+//   }
+// );

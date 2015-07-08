@@ -1,0 +1,15 @@
+/*body::after{
+	content: '<a href="http://peter-eberle.com">peter-eberle.com</a>';
+	position: absolute;
+	bottom: 2px;
+	width: 100px;
+	left: 50%;
+	color: #666;
+	margin-left: -50px;
+
+}*/
+
+
+.CodeMirror{
+	max-width: 960px !important;
+}
