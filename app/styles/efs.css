@@ -9,14 +9,135 @@
 
 }*/
 
-
-.CodeMirror{
-	max-width: 960px !important;
-  height: 100% !important;
+body{
+  margin-bottom: 48px;
 }
+
+
+/*respondiToolbar*/
+
+/*not here*/
+#loginbody{}
+
+
+
+.respondiToolbar{
+  background-color: #29B6F6!important;
+  border: none;
+  bottom: 0 !important;
+  display: block !important;
+  height: 48px !important;
+  padding: 4px !important;
+  position: fixed !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 999999 !important;
+}
+
+.respondiEFS{
+  position: absolute !important;
+  left: 0 !important;
+  top:0 !important;
+}
+
+.image{
+  padding: 4px;
+  width: 48px !important;
+  height: 48px !important;
+}
+.image img{
+  width: auto !important;
+  height: 100% !important;
+  display: block !important;
+  margin-left: 16px !important;
+}
+
+.claim{
+  color: white !important;
+}
+
+/*hide on popup*/
+.popup .respondiToolbar{
+  display: none !important;
+}
+
+/* footer */
+
+#adm_footer{ margin-bottom: 30px !important;}
+
+/*button for save*/
+.tablerahmen .submit,
+.questin-editor-contaier.submit,
+.questin-editor-contaier .sub,
+.tablebutton.button-right
+{
+  padding: 0 12px !important;
+  background-color: #689F38 !important;
+  border: none !important;
+  bottom: 8px !important;
+  color: #FFF !important;
+  position: fixed !important;
+  right: 8px !important;
+  text-shadow: none !important;
+  z-index: 99 !important;
+  height: 32px !important;
+  z-index: 9999991 !important;
+}
+.tablerahmen.submit:hover,
+.questin-editor-contaier .submit:hover,
+.questin-editor-contaier .sub:hover,
+.tablebutton.button-right:hover
+{
+  background-color: #8BC34A !important;
+  border: none !important;
+  color: #FFF !important;
+  text-shadow: none !important;
+}
+
+/*a hack*/
+.tablebutton.button-right
+{
+  padding: 0 !important;
+}
+
+.tablebutton.button-right .link
+{
+  display: block !important;
+  height: 100%;
+  width: 100%;
+}
+
+.tablebutton.button-right .link:hover
+{
+  background-color: #8BC34A !important;
+  border: none !important;
+  color: #FFF !important;
+  text-shadow: none !important;
+}
+
+/* hacks for better code*/
 
 /*qustion editor 911*/
 #code {
-	min-height: 600px !important;
-	width: 100% !important;
+  font-size: 15px !important;
+  min-height: 600px !important;
+  width: 100% !important;
+}
+
+/*qustion editor 998*/
+#htmlcode .column1{
+	width: 10% !important;
+}
+
+#htmlcode .column2{
+	width: 90% !important;
+}
+#cotext {
+  font-size: 15px !important;
+  min-height: 600px !important;
+  width: 100% !important;
+}
+
+.CodeMirror{
+  height: auto !important;
 }

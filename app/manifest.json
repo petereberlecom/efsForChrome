@@ -25,9 +25,10 @@
     {
       "matches": [
         "http://mingle2.respondi.com/*",
-        "https://mingle.respondi.com/*"
+        "https://mingle.respondi.com/www/*"
       ],
       "js": [
+        "bower_components/jquery/dist/jquery.js",
         "scripts/contentscript.js"
       ],
       "css" : [
